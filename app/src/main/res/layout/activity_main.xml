@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:weightSum="10"
+        android:background="#212121"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="35sp"
+            android:id="@+id/Head"
+            android:text="@string/thor_bmi"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_thor_s_details"
+            android:layout_below="@+id/Head"
+            android:id="@+id/det"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/kindalightRed"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_below="@+id/det"
+            android:id="@+id/linlay"
+            android:orientation="horizontal"
+            >
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="10"
+    android:background="#212121"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="35sp"
+        android:id="@+id/Head"
+        android:text="@string/thor_bmi"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_thor_s_details"
+        android:layout_below="@+id/Head"
+        android:id="@+id/det"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/kindalightRed"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_below="@+id/det"
+        android:id="@+id/linlay"
+        android:orientation="horizontal"
+        >
+>>>>>>> a80511f38279e436922bea6d5016f164dc9deab9
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColorHint="@color/whitekinda"
+            android:id="@+id/weightt"
+
+            android:textColorHighlight="@color/whitekinda"
+
+            android:layout_marginEnd="5dp"
+            android:hint="@string/weight_kg"
+            android:layout_weight="1"
+
+            android:textColor="@color/whitekinda"
+            android:backgroundTint="@color/whitekinda"
+            />
+
+        <EditText
+            android:id="@+id/heightt"
+
+            android:layout_marginEnd="10dp"
+
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="@string/height_m"
+            android:layout_weight="1"
+            android:textColorHint="@color/whitekinda"
+            android:textColor="@color/whitekinda"
+
+
+            android:backgroundTint="@color/whitekinda"
+            />
+
+<<<<<<< HEAD
+        </LinearLayout>
+=======
+    </LinearLayout>
+>>>>>>> a80511f38279e436922bea6d5016f164dc9deab9
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hitthor"
+        android:layout_below="@+id/linlay"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/hit_the_thor_s_hammer"
+        android:textColor="@color/kindalightRed"
+        android:textSize="18sp"
+        />
+
+<<<<<<< HEAD
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+
+            android:layout_below="@+id/hitthor"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/thor2"
+            android:scaleType="fitXY"
+
+
+            android:id="@+id/Sub"
+            android:onClick="calc"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hitthor"
+            android:layout_margin="20dp"
+            android:textColor="@color/kindalightRed"
+            android:textSize="20sp"
+            android:text="@string/wrote_the_wrong_details_modify_and_hit_submit"
+            android:id="@+id/second"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:id="@+id/subb"
+            android:text="@string/submit__"
+            android:layout_centerHorizontal="true"
+            android:onClick="calc2"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            >
+=======
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_below="@+id/hitthor"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/thor2"
+        android:scaleType="fitXY"
+
+
+        android:id="@+id/Sub"
+        android:onClick="calc"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hitthor"
+        android:layout_margin="20dp"
+        android:textColor="@color/kindalightRed"
+        android:textSize="20sp"
+        android:text="@string/wrote_the_wrong_details_modify_and_hit_submit"
+        android:id="@+id/second"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:id="@+id/subb"
+        android:text="@string/submit__"
+        android:layout_centerHorizontal="true"
+        android:onClick="calc2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        >
+>>>>>>> a80511f38279e436922bea6d5016f164dc9deab9
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/BMI"
+
+            android:textColor="@color/red"
+            android:textSize="35sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/verdict"
+
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="@color/BlueText"
+            />
+<<<<<<< HEAD
+        </LinearLayout>
+    </RelativeLayout>
+=======
+    </LinearLayout>
+</RelativeLayout>
+>>>>>>> a80511f38279e436922bea6d5016f164dc9deab9
+
